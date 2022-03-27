@@ -1,0 +1,44 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+.title{
+    font-size: x-large;
+    text-align: center;
+}
+
+.welcome{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+#loginBtn{
+    background-color: cyan;
+    border: 0px;
+    height: 100px;
+    width: 160px;
+    font-size: 30pt;
+    margin-right: 50px;
+}
+
+#regisBtn{
+    background-color: greenyellow;
+    border: 0px;
+    height: 100px;
+    width: 160px;
+    font-size: 26pt;
+}
+
+.loginBox{
+    background-color: aqua;
+}

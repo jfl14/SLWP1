@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #b8d8be;
+}
+
+.header{
+    justify-content: space-between;
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    height: 40px;
+    font-size: 20pt;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 15%;
+}

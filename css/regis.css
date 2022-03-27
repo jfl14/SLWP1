@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #abdbe3;
+}
+
+.title{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.row-content{
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 2%;
+    align-items: center;
+    width: 33%;
+}
+
+.label{
+    margin-right:40px;
+}
+
+input[type="text"], input[type="date"]{
+    width:80%;
+}
+
+label{
+    width: 30%;
+}
+
+textarea {
+    resize: none;
+}
+
+.btnContainer{
+    margin-top: 3%;
+    margin-left: 70%;
+}
