@@ -10,7 +10,10 @@
 <body>
     <form action="prosesRegister.php" method="post" enctype="multipart/form-data">
         <div class="title">Register</div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 07c173b (second commit)
         <div class="row">
             <div class="row-content">
                 <div class="label">Nama Depan</div>          
@@ -46,7 +49,11 @@
             </div>
             <div class="row-content">
                 <div class="label">Email</div>
+<<<<<<< HEAD
             <input type="text" name="email" id="" required>
+=======
+            <input type="email" name="email" id="" required>
+>>>>>>> 07c173b (second commit)
             </div>
             <div class="row-content">
                 <div class="label">No HP</div>
@@ -74,20 +81,35 @@
             </div>
             <div class="row-content">
                 <div class="label">Password 1</div>
+<<<<<<< HEAD
             <input type="text" name="pass1" id="" required>
             </div>
             <div class="row-content">
                 <div class="label">Password 2</div>
                 <input type="text" name="pass2" id="" required>
+=======
+            <input type="password" name="pass1" id="" required>
+            </div>
+            <div class="row-content">
+                <div class="label">Password 2</div>
+                <input type="password" name="pass2" id="" required>
+>>>>>>> 07c173b (second commit)
             </div>
         </div>
         <div class="btnContainer">
             <input type="submit" value="Register" name="submit" style="font-size: 15pt; margin-left: 15%;">
+<<<<<<< HEAD
         </div>
        
         
     </form>
     
 
+=======
+        </div>     
+        
+    </form>
+    <!-- <script src="register.js"></script> -->
+>>>>>>> 07c173b (second commit)
 </body>
 </html>

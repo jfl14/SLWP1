@@ -10,7 +10,10 @@ body{
 .title{
     font-size: x-large;
     text-align: center;
+<<<<<<< HEAD
     margin-bottom: 2%;
+=======
+>>>>>>> 07c173b (second commit)
     margin-top: 2%;
 }
 
@@ -32,7 +35,11 @@ body{
     margin-right:40px;
 }
 
+<<<<<<< HEAD
 input[type="text"], input[type="date"]{
+=======
+input[type="text"], input[type="date"], input[type="email"]{
+>>>>>>> 07c173b (second commit)
     width:80%;
 }
 
@@ -44,7 +51,17 @@ textarea {
     resize: none;
 }
 
+<<<<<<< HEAD
 .btnContainer{
+=======
+#message{
+    margin-left: 70%;
+    font-size: larger;
+}
+
+.btnContainer{
+    justify-content: center;
+>>>>>>> 07c173b (second commit)
     margin-top: 3%;
     margin-left: 70%;
 }

@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
     session_start();
     if(isset($_POST['submit'])){
 
@@ -31,6 +32,32 @@
         $_SESSION["pass2"] = $_POST["pass2"];
 
         header("Location: welcome.php");
+=======
+    if(isset($_POST['submit'])){
+
+        include("config.php");
+
+        if($_POST["pass1"] !== $_POST["pass2"]){
+            header("location: register.php");       
+            exit();
+        }   
+
+        $fileName = basename($_FILES['foto']['name']); 
+        $fileType = pathinfo($fileName, PATHINFO_EXTENSION); 
+
+        $file = $_FILES['foto']['tmp_name'];
+        $img = addslashes(file_get_contents($file));
+        
+        $md5_pass = md5($_POST["pass1"]);
+
+        $str_query = "insert into user values('".$_POST["nik"]."', '".$_POST["depan"]."','".$_POST["tengah"]."','".$_POST["belakang"]."', '".$_POST["tempat"]."', '".$_POST["tanggal"]."','".$_POST["negara"]."', '".$_POST["email"]."', '".$_POST["hp"]."', '".$_POST["alamat"]."', '".$_POST["pos"]."', '$img', '".$_POST["username"]."', '".$md5_pass."')";
+
+        $query = mysqli_query($connection, $str_query);
+
+        
+        header("location: welcome.php");
+        
+>>>>>>> 07c173b (second commit)
 
     }
 ?>
